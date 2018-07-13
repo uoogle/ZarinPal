@@ -1,0 +1,21 @@
+﻿کد زیر را در قالب payment_profile_paypal در استایل های مدیر کل کپی کنید
+
+
+<xf:textboxrow name="options[zarinpal_merchant]" value="{$profile.options.zarinpal_merchant}"
+	label="ZarinPal Merchant"
+	hint="{{ phrase('required') }}">
+</xf:textboxrow>
+
+<xf:checkboxrow>
+	<xf:option name="options[zarinpal_testmode]" selected="$profile.options.zarinpal_testmode" label="Test Mode" />
+</xf:checkboxrow>
+
+<xf:checkboxrow>
+	<xf:option name="options[zarinpal_zaringate]" selected="$profile.options.zarinpal_zaringate" label="ZarinGate" />
+</xf:checkboxrow>
+
+<xf:checkboxrow>
+	<xf:option name="options[zarinpal_sepgate]" selected="$profile.options.zarinpal_sepgate" label="SepGate" />
+</xf:checkboxrow>
+
+<xf:hiddenval name="options[legacy]" value="{{ $profile.options.legacy ? 1 : 0 }}" />

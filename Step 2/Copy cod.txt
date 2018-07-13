@@ -1,0 +1,10 @@
+﻿فایل config.php را در مسیر زیر پیدا کنید
+
+Your Adress /forum/src
+
+
+
+
+و کد زیر را به انتخای آن اضافه کنید
+
+$config['debug'] = true
