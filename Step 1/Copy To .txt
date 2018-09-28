@@ -1,3 +1,0 @@
-﻿public_html/forum/src/XF/Payment
-
-جایگزین فایل قبلی کنید
